@@ -6,19 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ma page web</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../BACKEND/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+    <!-- <link rel="stylesheet/less" type="text/css" href="styles.less" /> -->
 
     <style>
         .error {
             outline: 1px solid red;
         }
     </style>
-    <script src="./my.js"></script>
+    <script src="../BACKEND/my.js"></script>
 </head>
 
 <body>
@@ -41,6 +41,11 @@
         <div>
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Entrer mot de passe" id="psw" name="psw" required>
+            <br>
+            <label>confirm password:
+                <input type="password" name="confirm_password" id="confirm_password" />
+                <span id='message'></span>
+            </label>
         </div>
         <input type='submit' value='Submit form' onClick='onSubmit()' />
 
