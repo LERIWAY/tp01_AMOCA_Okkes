@@ -1,6 +1,12 @@
 h1 {
     color: purple;
+    text-align: center;
+    background-color: lightblue;
 }
-.selector-for-some-widget {
-    box-sizing: content-box;
-  }
+form {
+    text-align: center;
+    background-color: lightblue;
+}
+html {
+    background-color: lightblue;
+}
